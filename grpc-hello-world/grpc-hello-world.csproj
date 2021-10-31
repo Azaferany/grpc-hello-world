@@ -4,5 +4,11 @@
         <TargetFramework>net5.0</TargetFramework>
         <RootNamespace>grpc_hello_world</RootNamespace>
     </PropertyGroup>
-
+    <ItemGroup>
+        <PackageReference Include="protobuf-net.BuildTools" Version="3.0.101" PrivateAssets="all" IncludeAssets="runtime; build; native; contentfiles; analyzers; buildtransitive" />
+        <PackageReference Include="protobuf-net.Grpc" Version="1.0.152" />
+        <PackageReference Include="protobuf-net.Grpc.AspNetCore.Reflection" Version="1.0.152" />
+        <PackageReference Include="protobuf-net.Grpc.AspNetCore" Version="1.0.152" />
+        <PackageReference Include="System.ServiceModel.Primitives" Version="4.8.1" />
+    </ItemGroup>
 </Project>
