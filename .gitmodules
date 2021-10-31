@@ -1,0 +1,3 @@
+[submodule "grpc-hello-world/grpc-hello-world-protobuf"]
+	path = grpc-hello-world/grpc-hello-world-protobuf
+	url = https://github.com/Azaferany/grpc-hello-world-protobuf
