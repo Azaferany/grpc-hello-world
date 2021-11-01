@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+    
+    <PropertyGroup>
+        <TargetFramework>net5.0</TargetFramework>
+        <RootNamespace>grpc_hello_world.ViewModels</RootNamespace>
+    </PropertyGroup>
+    
+    <ItemGroup>
+        <PackageReference Include="protobuf-net.BuildTools" Version="3.0.101" PrivateAssets="all" IncludeAssets="runtime; build; native; contentfiles; analyzers; buildtransitive" />
+        <PackageReference Include="protobuf-net.Grpc" Version="1.0.152" />
+        <PackageReference Include="protobuf-net.Grpc.Reflection" Version="1.0.152" />
+    </ItemGroup>
+</Project>
